@@ -1,7 +1,7 @@
 \chapter{Superscalar Processing}
 Superscalar processors rearrange the incoming instruction stream so that instructions can be executed independently across multiple execution units, allowing for increased throughput.
 
-However, in doing so, they must handle parallel decoding, issues that arise from superscalar execution, and must preerve sequential consistency of execution and exception processing.
+However, in doing so, they must handle parallel decoding, issues that arise from superscalar execution, and must preserve sequential consistency of execution and exception processing.
 
 \section{Parallel Decoding}
 In a superscalar machine, multiple instructions are issued concurrently (\autoref{fig:screenshot148}). Decoding these instructions can be difficult, especially when instructions are multiple words. Inter-instruction dependencies need to be checked before an instruction can be issued.
